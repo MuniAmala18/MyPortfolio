@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Amala</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/d61c799656.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <a href="#"><img src="images/logo2.png" class="logo" alt="Muni Amala"></a>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Certifications</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Certified Full Stack Developer</p>
+            <h1>Hi, I'm <span>Muni Amala Telu</span> <br> from India!</h1>
+        </div>
+    </div>
+   </div> 
+   <!---------------------About-------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg" alt="Amala">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <h3 style="margin-bottom: 10px;">Welcome to my digital space!</h3>
+                <p>I am a highly motivated Computer Science Engineering graduate, 
+                    driven by a passion for innovation and a dedication to excellence. 
+                    With a solid academic background, I am eager to embark on challenging 
+                    opportunities within a dynamic organization,  where I can leverage my proficiency 
+                    in Java programming, SQL, HTML, CSS, and my expertise in the Spring framework and Spring Boot.
+                    Eager to be an integral part of cutting-edge projects, 
+                    I aspire to make impactful contributions that propel the organization's growth and success, 
+                    all while advancing my own professional development.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Java</span><br>Core and Advanced Java Programming Language.</li>
+                        <li><span>HTML and CSS</span><br>Designing the static web pages.</li>
+                        <li><span>JavaScript</span><br>Designing Responsve web pages.</li>
+                        <li><span>MySQL</span><br>Storing and manipulating Data.</li>
+                        <li><span>SpringBoot</span><br>Framework for Dynamic Wep application development.</li>
+                        <li><span>Python</span><br>Building python project using Django.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>June 2023 - Feb 2024</span><br>KodNest Technologies Pvt Ltd. - Full Stack Development Intern</li>
+                        <li><span>Description</span><br>As a Full Stack Development Intern, I adeptly applied full-stack principles, utilizing Java, Spring Boot for backend, 
+                            HTML,CSS and JavaScript for front-end, and MySQL for seamless database manipulation, 
+                            showcasing a robust understanding of web development dynamics.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 - B.Tech</span><br>Successfully Graduated on CSE from SIETK</li>
+                        <li><span>2019 - Intermediate</span><br>Specialization in MPC from Sri Sai Jyothi Junior College.</li>
+                        <li><span>2017 - SSC</span><br>Completed 10th from Sesha Sai High School.</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!----------------Certifications---------------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Full Stack Web Development Certification</h2>
+                <p>Certified in full-stack web development with expertise in Java, 
+                    Python, and Spring framework from KodNest Technologies, completing a rigorous six-month 
+                    training program. Proficient in JavaScript, HTML, CSS, SQL, Oracle, manual testing, 
+                    and Python for comprehensive web development solutions.
+                </p>
+                <a href="https://app.kodnest.com/student-certificate/3b0ebc99-cc40-4317-8218-17c133dd2a7c" target="_blank">Check Out this!</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Responsive Web Design Certification</h2>
+                <p>Completing the FreeCodeCamp Responsive Web Design Certification.
+                    I've gained expertise in creating adaptive websites using HTML, CSS, Flexbox, 
+                    and CSS Grid. I'm ready to contribute effectively to the world of web development.
+                </p>
+                <a href="https://freecodecamp.org/certification/MuniAmala18/responsive-web-design" target="_blank">Check Out this!</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>The Joy of computing using Python</h2>
+                <p>I'm thrilled to share my NPTEL Certification
+                     in "The Joy of Computing using Python." This course has been a transformative journey, equipping me with a solid understanding of Python and its diverse applications.
+                </p>
+                <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS31S1434019002132999" target="_blank">Check Out this!</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>The Problem solving through programming in C</h2>
+                <p>I'm delighted to share my NPTEL Certification in 
+                "Problem Solving through Programming in C." This certification marks my proficiency in C programming and my ability to approach and solve problems systematically. 
+                </p>
+                <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL21CS54S2450097003165130" target="_blank">Check Out this!</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-------Portfolio--------------------->
+   <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/project-1.jpg" alt="project1">
+                    <div class="layer">
+                        <h3>TuneHub</h3>
+                        <p>Crafted a dynamic music streaming platform with Spring Boot, Thymeleaf, and MySQL for seamless
+                             playlist management by admins and a curated music for users.</p>
+                        <a href="https://github.com/MuniAmala18/TuneHub" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project-2.jpg" alt="project2">
+                    <div class="layer">
+                        <h3>Coffee Shop</h3>
+                        <p>Created a stylish Coffee Shop website using Django, Python, HTML, CSS, and 
+                            JavaScript for a visually appealing user experience.</p>
+                        <a href="https://github.com/MuniAmala18/CoffeShop" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project-4.jpg" alt="project-3">
+                    <div class="layer">
+                        <h3>Tic-Tac-Toe Game</h3>
+                        <p>Developed an interactive Tic Tac Toe game using HTML, CSS, and JavaScript, showcasing strong front-end development skills. Play the Game!</p>
+                        <a href="https://muniamala18.github.io/TicTacToe-Game/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        
+            </div>
+            <a href="#contact" class="btn">See more</a>
+        </div>
+   </div>
+<!-------------------------Contact----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> muniamalat@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-9948121311</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/muni-amala-telu-049191226/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/amala_orange?igsh=MnhiaTVnNTc0OXNl" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/MuniAmala18" target="_blank"><i class="fa-brands fa-github" ></i></a>
+                        <a href="https://t.me/+919948121311" target="_blank"><i class="fa-brands fa-telegram" ></i></a>
+                    </div>
+                    <a href="images/Amala Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required/>
+                        <input type="email" name="Email" placeholder="Your Email" required/>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Muni Amala Telu. Created with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+
+
+
+   <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+   </script>
+   <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzmc6Hni4htsihiyJp6019lmWjxPiCNI0l7YtMLrWS3BX3RLcD5BK78eNlMuEB_Xg2IVw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
